@@ -12,16 +12,9 @@ Clone this git repo and fetch submodules:
 git submodule update --init --recursive
 ```
 
-To set up `Colosseum` follow the instructions from [here](https://codexlabsllc.github.io/Colosseum/build_windows/) inside the `Colosseum` subfolder.
-Use the `x64 Native Tools Command Prompt for VS 2022` to build it. 
+To set up `Colosseum` start a `x64 Native Tools Command Prompt for VS 2022` terminal and run the `.\buildAirSim.cmd` script.
 
-Hint: In the `Colosseum` docs you need to replace `Colosseum` by `AirSim` in some commands.
-
-Now copy the compiled `Colosseum`/`AirSim` plugin into the `dronesim` Unreal project:
-
-```bash
-robocopy .\Colosseum\Unreal\Plugins\AirSim .\Unreal\Dronesim\Plugins\AirSim /E
-```
+The `Colosseum` docs are found at [here](https://codexlabsllc.github.io/Colosseum/build_windows/).
 
 Also add the `City Park Environment Collection LITE` package:
 - Search for it in the Epic Games marketplace and download it / `Create Project` at a temporary folder.
@@ -29,3 +22,5 @@ Also add the `City Park Environment Collection LITE` package:
 - Remove the temporary project.
 
 Now you can open the `Dronesim.code-workspace` with `VSCode` and the `Dronesim.uproject` by double-clicking.
+
+TODO: build Colosseum in release mode
