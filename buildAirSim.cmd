@@ -1,10 +1,9 @@
 @echo off
 
-powershell -command ".\Colosseum\build.cmd"
+powershell -command ".\Colosseum\build.cmd --RelWithDebInfo"
 if %ERRORLEVEL% neq 0 (
     exit /b 1
 )
-
 
 set plugin_folder=.\Unreal\Dronesim\Plugins\AirSim
 
