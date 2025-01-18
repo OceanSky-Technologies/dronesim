@@ -71,7 +71,7 @@ Then run PX4 from [our fork](https://github.com/OceanSky-Technologies/PX4-Autopi
 
 ```bash
 export PX4_SIM_HOST_ADDR=192.168.144.1 # Windows host IP, same as in settings.json
-make skywinger
+make px4_sitl skywinger
 ```
 
 Once PX4 and Dronesim are running QGroundControl should detect the drone automatically.
