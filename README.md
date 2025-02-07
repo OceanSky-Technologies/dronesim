@@ -4,6 +4,9 @@ This project is build on top of [Colosseum](https://github.com/CodexLabsLLC/Colo
 
 Supported Unreal version: 5.4.4.
 
+![image](https://github.com/user-attachments/assets/3ccbce1e-cc2e-4de2-8120-9cec06953977)
+
+
 ## Setup
 
 Clone this git repo and fetch submodules:
