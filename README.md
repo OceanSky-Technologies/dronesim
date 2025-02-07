@@ -1,6 +1,6 @@
 # dronesim
 
-This project is build on top of [Colosseum](https://github.com/CodexLabsLLC/Colosseum) which is a fork of [AirSim](https://github.com/microsoft/AirSim).
+Physics simulation for PX4/Skywinger drone (incl motor and camera pitch) based on [Colosseum](https://github.com/CodexLabsLLC/Colosseum) (an [AirSim](https://github.com/microsoft/AirSim) fork) and Unreal Engine.
 
 Supported Unreal version: 5.4.4.
 
